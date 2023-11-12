@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS burrito (
+            id INTEGER PRIMARY KEY,
+            name TEXT NOT NULL,
+            filling TEXT,
+            sauce TEXT,
+            extras TEXT
+        )
